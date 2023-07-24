@@ -1,0 +1,52 @@
+/* src/components/ClaimProcess.css */
+
+.claim-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: lightcyan;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 175px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #007bff;
+}
+
+.form-step {
+  /* display: ${props => props.hidden ? 'none' : 'block'}; */
+  margin-bottom: 40px;
+}
+
+.form-step h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:last-child {
+  background-color: #28a745;
+}
+
+button:last-child:hover {
+  background-color: #1f8c39;
+}
