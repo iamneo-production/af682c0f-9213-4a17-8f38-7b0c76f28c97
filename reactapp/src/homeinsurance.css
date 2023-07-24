@@ -1,0 +1,102 @@
+/* CarInsurancePlans.css */
+.car-insurance-plans {
+  margin-bottom: 40px;
+  justify-content: center;
+  align-items: center;
+  margin: 5vh 3vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-title {
+  display: flex;
+  flex-direction: row;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.plans-container {
+  justify-content: center;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.plan-card {
+  background-color: lavender;
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 30vw;
+}
+
+.plan-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.plan-description {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.plan-details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.detail-group {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.detail-group-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.detail-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.detail-list li {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #666;
+}
+
+.plan-cta {
+  text-align: center;
+  justify-content: center;
+  align-items:center;
+  vertical-align:middle;
+}
+
+.plan-cta p {
+  display: flex;
+  flex-direction: row;
+}
+
+.plan-cta input {
+  display: flex;
+  flex-direction: row;
+  max-width: 200px;
+}
+.cta-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

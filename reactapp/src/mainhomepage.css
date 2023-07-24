@@ -1,0 +1,98 @@
+div.container {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgrey;
+    /* background: url(homepage2.jpg) no-repeat fixed; */
+    background-size: 100%;
+  }
+  
+ /* src/components/HomePage.css */
+
+/* Global styles */
+.container {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  /* max-width: 1200px; */
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+/* Header section */
+.header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.header h1 {
+  font-size: 3rem;
+  color: #007bff;
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Features section */
+.features {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+  margin: 50px;
+}
+
+.feature {
+  flex: 1;
+  margin: 20px;
+  text-align: center;
+  padding: 20px;
+  background-color: lightblue;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.feature h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  color: #555;
+}
+
+/* Call to Action section */
+.cta {
+  text-align: center;
+  padding: 40px 0;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.cta h2 {
+  font-size: 2rem;
+}
+
+.cta p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #fff;
+  color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cta button:hover {
+  background-color: #f0f0f0;
+}
